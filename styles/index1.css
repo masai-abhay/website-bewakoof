@@ -1,0 +1,278 @@
+body{
+    margin:0;
+    font-family: "montserrat", sans-serif;
+}
+#margin-top-slider1{
+    height: 150px;
+}
+ /*  #slider1{                             /*--------------------------------*/
+    
+    
+    
+   /* justify-content: space-between;
+    transition:all 0.5s ease-out ;*/
+/*  border:2px solid rgb(63, 29, 29); 
+   display:flex;
+   overflow:hidden;
+   
+}  
+
+/*#slider1 > div{
+    height:500px;
+    margin-bottom: 20px;
+   
+
+   
+}
+
+#slider1 > div > img{
+    height:100%;
+    grid-template-columns: repeat(10, 1fr);
+  
+    
+}*/
+#slider1 .image-list {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+#slider1 .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+
+  #slider1 .slide-button:hover {
+    background: #404040;
+  }
+  #slider1 .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+  }
+  #slider1 .slide-button#next-slide {
+    right: -25px;
+  }
+
+.slider1 .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+
+#slider1 .image-list .image-item {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.container .slider-scrollbar{
+    height: 24px;
+    width: 100%;
+  
+}
+
+.slider-scrollbar .scrollbar-track {
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+  }
+  .slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+  }
+  .slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+  }
+  .slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+  }
+
+
+#banner1>img{
+    width:100%;
+}
+#main-offers{
+    display:flex;
+    /* justify-content: space-around; */
+    width:90%;
+    margin:20px auto;
+    text-align: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+#main-offers>div{
+    height:200px;
+    /* margin-right: 5%; */
+    line-height: 10px;
+    /* border: 2px solid teal; */
+}
+#main-offers>div>img{
+    height:80%;
+    border-radius: 10px;
+}
+#main-offers>div>a>h3{
+    margin-top:10px;
+    font-size: 15px;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+    /* background-color: red; */
+}
+/* Banner2 */
+#main-banner2{
+    /* border:1px solid red; */
+    text-align: center;
+    margin: 20px 0;
+    
+}
+#main-banner2>img{
+    width:100%;
+    margin: 10px 0;
+}
+#main-popular-h2{
+    margin:20px 0;
+}
+#main-categories{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    /* flex-wrap: wrap; */
+    width:80%;
+    margin: auto;
+    justify-content: space-evenly;
+    
+}
+#main-categories>div{
+    height:180px;
+    /* margin-right: 5%; */
+    line-height: 10px;
+    margin-right: 3%;
+    /* border: 2px solid teal;  */
+    margin-bottom: 30px;
+    text-align: center;
+}
+#main-categories>div>img{
+height:80%;
+border-radius: 10px;
+margin-bottom: 7px;
+}
+#main-popular-h2{
+    text-align: center;
+}
+/* main discount */
+#main-discount{
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+#main-discount>div>img{
+    width: 49%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    
+}
+#main-best-seller-men{
+    display:flex;
+    height: 400px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#main-best-seller-men>div>img{
+    height:90%;
+}
+ 
+#main-best-seller-men>div>h4>span{
+    color:gray;
+    margin-left: 2%;
+    text-decoration: line-through;
+}
+.main-h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#main-view-all{
+    text-decoration: underline;
+    color:#a6dfff;
+    font-size: 12px;
+    margin-bottom: 20px;
+    
+}
+
+#slider2{
+    display:flex;
+    /* border:2px solid red; */
+    justify-content: space-evenly;
+    transition:all 0.5s ease-out ;
+    margin-top: 20px;
+}
+#slider2 > div{
+    height:500px;
+    margin-bottom: 20px;
+}
+#slider2 > div > img{
+    height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* things to be updated 
+images: hover fade out
+
+*/
